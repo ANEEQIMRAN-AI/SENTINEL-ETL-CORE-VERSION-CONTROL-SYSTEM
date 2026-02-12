@@ -1,0 +1,43 @@
+{
+  "version": "v3",
+  "created_at": "2026-01-30T11:22:28.643305",
+  "source_file": "data/processed/sample_dataset_v3.csv",
+  "row_count": 12,
+  "columns": [
+    "customer_id",
+    "name",
+    "email",
+    "age",
+    "purchase_amount",
+    "registration_date",
+    "is_active",
+    "country",
+    "loyalty_points",
+    "last_purchase_date",
+    "product"
+  ],
+  "column_count": 11,
+  "data_types": {
+    "customer_id": "integer",
+    "name": "string",
+    "email": "string",
+    "age": "integer",
+    "purchase_amount": "float",
+    "registration_date": "string",
+    "is_active": "boolean",
+    "country": "string",
+    "loyalty_points": "integer",
+    "last_purchase_date": "string",
+    "product": "string"
+  },
+  "file_hash": "e2f802746109e8957147b8cc7c237d3c18a289add320a3275f749a6e08241690",
+  "file_size_bytes": 1192,
+  "quality_score": 90.5,
+  "backups": [
+    {
+      "backup_timestamp": "2026-01-30T11:27:30.405094",
+      "backed_up_version": "v3",
+      "reason": "Pre-rollback backup"
+    }
+  ]
+}

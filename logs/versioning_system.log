@@ -1,0 +1,79 @@
+2026-01-30 01:00:11,979 - CreateVersion - INFO - ============================================================
+2026-01-30 01:00:11,979 - CreateVersion - INFO - Data Versioning System - Create Version
+2026-01-30 01:00:11,979 - CreateVersion - INFO - ============================================================
+2026-01-30 01:00:11,979 - CreateVersion - INFO - Input file: data/processed/sample_dataset_v1.csv
+2026-01-30 01:00:11,979 - CreateVersion - INFO - Quality score: 90.5
+2026-01-30 01:00:11,981 - CreateVersion - INFO - VersionManager initialized
+2026-01-30 01:00:11,982 - CreateVersion - INFO - Copied dataset to data/versions/v1/sample_dataset_v1.csv
+2026-01-30 01:00:11,982 - CreateVersion - INFO - Created metadata for v1
+2026-01-30 01:00:11,983 - CreateVersion - INFO - Updated versions index with v1
+2026-01-30 01:00:11,983 - CreateVersion - INFO - Set current version to v1
+2026-01-30 01:00:11,983 - CreateVersion - INFO - Version 'v1' created successfully
+2026-01-30 01:00:11,983 - CreateVersion - INFO - Version creation completed successfully: v1
+2026-01-30 01:00:13,789 - CreateVersion - INFO - ============================================================
+2026-01-30 01:00:13,790 - CreateVersion - INFO - Data Versioning System - Create Version
+2026-01-30 01:00:13,790 - CreateVersion - INFO - ============================================================
+2026-01-30 01:00:13,790 - CreateVersion - INFO - Input file: data/processed/sample_dataset_v2.csv
+2026-01-30 01:00:13,790 - CreateVersion - INFO - Quality score: 98.0
+2026-01-30 01:00:13,792 - CreateVersion - INFO - VersionManager initialized
+2026-01-30 01:00:13,792 - CreateVersion - INFO - Copied dataset to data/versions/v2/sample_dataset_v2.csv
+2026-01-30 01:00:13,793 - CreateVersion - INFO - Created metadata for v2
+2026-01-30 01:00:13,793 - CreateVersion - INFO - Updated versions index with v2
+2026-01-30 01:00:13,793 - CreateVersion - INFO - Set current version to v2
+2026-01-30 01:00:13,794 - CreateVersion - INFO - Version 'v2' created successfully
+2026-01-30 01:00:13,794 - CreateVersion - INFO - Version creation completed successfully: v2
+2026-01-30 01:00:16,057 - CompareVersions - INFO - ============================================================
+2026-01-30 01:00:16,057 - CompareVersions - INFO - Data Versioning System - Compare Versions
+2026-01-30 01:00:16,057 - CompareVersions - INFO - ============================================================
+2026-01-30 01:00:16,059 - CompareVersions - INFO - VersionManager initialized
+2026-01-30 01:00:16,059 - CompareVersions - INFO - Comparing v1 and v2
+2026-01-30 01:00:16,059 - CompareVersions - INFO - Comparing versions v1 and v2
+2026-01-30 01:00:16,060 - CompareVersions - INFO - Comparison complete for v1 and v2
+2026-01-30 01:00:16,060 - CompareVersions - INFO - Comparison report saved to data/version_comparison.json
+2026-01-30 01:00:16,060 - CompareVersions - INFO - Comparison completed and saved to data/version_comparison.json
+2026-01-30 01:00:18,583 - RollbackVersion - INFO - ============================================================
+2026-01-30 01:00:18,583 - RollbackVersion - INFO - Data Versioning System - Rollback
+2026-01-30 01:00:18,583 - RollbackVersion - INFO - ============================================================
+2026-01-30 01:00:18,585 - RollbackVersion - INFO - VersionManager initialized
+2026-01-30 01:00:20,222 - RollbackVersion - INFO - ============================================================
+2026-01-30 01:00:20,222 - RollbackVersion - INFO - Data Versioning System - Rollback
+2026-01-30 01:00:20,222 - RollbackVersion - INFO - ============================================================
+2026-01-30 01:00:20,224 - RollbackVersion - INFO - VersionManager initialized
+2026-01-30 01:00:54,040 - RollbackVersion - INFO - Starting rollback from v2 to v1
+2026-01-30 01:00:54,041 - RollbackVersion - INFO - Set current version to v1
+2026-01-30 01:00:54,041 - RollbackVersion - INFO - Logged rollback event: v2 -> v1
+2026-01-30 01:00:54,041 - RollbackVersion - INFO - Successfully rolled back to v1
+2026-01-30 01:00:54,041 - RollbackVersion - INFO - Rollback completed: v2 → v1
+2026-01-30 01:00:56,349 - RollbackVersion - INFO - ============================================================
+2026-01-30 01:00:56,350 - RollbackVersion - INFO - Data Versioning System - Rollback
+2026-01-30 01:00:56,350 - RollbackVersion - INFO - ============================================================
+2026-01-30 01:00:56,352 - RollbackVersion - INFO - VersionManager initialized
+2026-01-30 11:15:20,310 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:22:28,638 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:22:28,642 - DataVersioning - INFO - Copied dataset to data/versions\v3\sample_dataset_v3.csv
+2026-01-30 11:22:28,649 - DataVersioning - INFO - Created metadata for v3
+2026-01-30 11:22:28,657 - DataVersioning - INFO - Updated versions index with v3
+2026-01-30 11:22:28,663 - DataVersioning - INFO - Set current version to v3
+2026-01-30 11:22:28,663 - DataVersioning - INFO - Version 'v3' created successfully
+2026-01-30 11:25:00,363 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:25:25,096 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:25:25,097 - DataVersioning - INFO - Comparing versions v2 and v3
+2026-01-30 11:25:25,101 - DataVersioning - INFO - Comparison complete for v2 and v3
+2026-01-30 11:25:25,104 - DataVersioning - INFO - Comparison report saved to data/version_comparison.json
+2026-01-30 11:27:08,321 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:27:26,271 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:27:30,404 - DataVersioning - INFO - Starting rollback from v3 to v1
+2026-01-30 11:27:30,406 - DataVersioning - INFO - Created backup for v3
+2026-01-30 11:27:30,410 - DataVersioning - INFO - Set current version to v1
+2026-01-30 11:27:30,441 - DataVersioning - INFO - Logged rollback event: v3 -> v1
+2026-01-30 11:27:30,442 - DataVersioning - INFO - Successfully rolled back to v1
+2026-01-30 11:27:42,876 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:27:50,526 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 11:27:52,997 - DataVersioning - INFO - Starting rollback from v1 to v3
+2026-01-30 11:27:52,999 - DataVersioning - INFO - Created backup for v1
+2026-01-30 11:27:53,000 - DataVersioning - INFO - Set current version to v3
+2026-01-30 11:27:53,026 - DataVersioning - INFO - Logged rollback event: v1 -> v3
+2026-01-30 11:27:53,026 - DataVersioning - INFO - Successfully rolled back to v3
+2026-01-30 11:27:55,751 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 12:36:25,230 - DataVersioning - INFO - VersionManager initialized
+2026-01-30 14:50:54,156 - DataVersioning - INFO - VersionManager initialized

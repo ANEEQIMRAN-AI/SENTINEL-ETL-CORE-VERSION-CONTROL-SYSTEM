@@ -1,0 +1,11 @@
+customer_id,name,email,age,purchase_amount,registration_date,is_active,country
+1,John Smith,john.smith@email.com,28,1250.50,2023-01-15,true,USA
+2,Sarah Johnson,sarah.j@email.com,34,2100.75,2023-02-20,true,UK
+3,Michael Brown,m.brown@email.com,45,950.25,2023-03-10,false,Canada
+4,Emily Davis,emily.d@email.com,29,1800.00,2023-04-05,true,USA
+5,David Wilson,d.wilson@email.com,52,3200.50,2023-05-12,true,Australia
+6,Jessica Martinez,j.martinez@email.com,31,1500.75,2023-06-18,true,Spain
+7,Robert Taylor,r.taylor@email.com,38,2250.25,2023-07-22,false,USA
+8,Amanda White,a.white@email.com,26,800.50,2023-08-30,true,Germany
+9,Christopher Lee,c.lee@email.com,41,2800.00,2023-09-14,true,USA
+10,Michelle Harris,m.harris@email.com,35,1600.75,2023-10-25,true,France

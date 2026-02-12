@@ -1,0 +1,72 @@
+# Data Versioning System Configuration
+# This file defines the behavior and paths for the data versioning system
+
+# Version naming convention
+versioning:
+  # Pattern for version directory names (v1, v2, v3, etc.)
+  naming_pattern: "v{version_number}"
+  # Starting version number
+  initial_version: 1
+  # Auto-increment version numbers
+  auto_increment: true
+
+# Storage paths (relative to project root)
+storage:
+  # Directory where processed data is stored
+  processed_data_dir: "data/processed"
+  # Directory where versions are stored
+  versions_dir: "data/versions"
+  # Master index file
+  index_file: "data/versions_index.json"
+  # Current version pointer
+  current_version_file: "data/current_version.txt"
+  # Logs directory
+  logs_dir: "logs"
+
+# Version management
+version_management:
+  # Maximum number of versions to retain (0 = unlimited)
+  max_versions_to_retain: 0
+  # Automatically backup before rollback
+  backup_before_rollback: true
+  # Store data quality metrics
+  track_quality_metrics: true
+
+# Metadata configuration
+metadata:
+  # Include row count in metadata
+  include_row_count: true
+  # Include column information
+  include_columns: true
+  # Include data types
+  include_data_types: true
+  # Include file hash for integrity checking
+  include_file_hash: true
+  # Include file size
+  include_file_size: true
+
+# Logging configuration
+logging:
+  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  level: "INFO"
+  # Log format
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  # Log file name
+  file: "versioning_system.log"
+  # Maximum log file size in MB
+  max_file_size: 10
+  # Number of backup log files to keep
+  backup_count: 5
+
+# Comparison settings
+comparison:
+  # Include row count differences
+  compare_row_count: true
+  # Include column differences
+  compare_columns: true
+  # Include data type changes
+  compare_data_types: true
+  # Include sample data differences
+  include_sample_data: true
+  # Number of sample rows to include
+  sample_size: 5

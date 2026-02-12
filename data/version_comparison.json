@@ -1,0 +1,178 @@
+{
+  "comparison_timestamp": "2026-01-30T11:25:25.098982",
+  "version1": "v2",
+  "version2": "v3",
+  "version1_created_at": "2026-01-30T01:00:13.792799",
+  "version2_created_at": "2026-01-30T11:22:28.643305",
+  "row_count_comparison": {
+    "version1_row_count": 12,
+    "version2_row_count": 12,
+    "difference": 0,
+    "percentage_change": 0.0,
+    "direction": "no change"
+  },
+  "column_comparison": {
+    "version1_column_count": 10,
+    "version2_column_count": 11,
+    "added_columns": [
+      "product"
+    ],
+    "removed_columns": [],
+    "common_columns": [
+      "email",
+      "loyalty_points",
+      "customer_id",
+      "country",
+      "purchase_amount",
+      "last_purchase_date",
+      "name",
+      "is_active",
+      "age",
+      "registration_date"
+    ],
+    "columns_added_count": 1,
+    "columns_removed_count": 0
+  },
+  "data_type_comparison": {
+    "changed_columns": {},
+    "total_changes": 0
+  },
+  "sample_data_comparison": {
+    "version1_sample": [
+      {
+        "customer_id": "1",
+        "name": "John Smith",
+        "email": "john.smith@email.com",
+        "age": "28",
+        "purchase_amount": "1250.50",
+        "registration_date": "2023-01-15",
+        "is_active": "true",
+        "country": "USA",
+        "loyalty_points": "500",
+        "last_purchase_date": "2024-01-10"
+      },
+      {
+        "customer_id": "2",
+        "name": "Sarah Johnson",
+        "email": "sarah.j@email.com",
+        "age": "34",
+        "purchase_amount": "2100.75",
+        "registration_date": "2023-02-20",
+        "is_active": "true",
+        "country": "UK",
+        "loyalty_points": "750",
+        "last_purchase_date": "2024-01-12"
+      },
+      {
+        "customer_id": "3",
+        "name": "Michael Brown",
+        "email": "m.brown@email.com",
+        "age": "45",
+        "purchase_amount": "950.25",
+        "registration_date": "2023-03-10",
+        "is_active": "false",
+        "country": "Canada",
+        "loyalty_points": "200",
+        "last_purchase_date": "2023-12-20"
+      },
+      {
+        "customer_id": "4",
+        "name": "Emily Davis",
+        "email": "emily.d@email.com",
+        "age": "29",
+        "purchase_amount": "1800.00",
+        "registration_date": "2023-04-05",
+        "is_active": "true",
+        "country": "USA",
+        "loyalty_points": "600",
+        "last_purchase_date": "2024-01-08"
+      },
+      {
+        "customer_id": "5",
+        "name": "David Wilson",
+        "email": "d.wilson@email.com",
+        "age": "52",
+        "purchase_amount": "3200.50",
+        "registration_date": "2023-05-12",
+        "is_active": "true",
+        "country": "Australia",
+        "loyalty_points": "1200",
+        "last_purchase_date": "2024-01-15"
+      }
+    ],
+    "version2_sample": [
+      {
+        "customer_id": "1",
+        "name": "John Smith",
+        "email": "john.smith@email.com",
+        "age": "28",
+        "purchase_amount": "1250.5",
+        "registration_date": "15/01/2023",
+        "is_active": "TRUE",
+        "country": "USA",
+        "loyalty_points": "500",
+        "last_purchase_date": "10/01/2024",
+        "product": "Pen"
+      },
+      {
+        "customer_id": "2",
+        "name": "Sarah Johnson",
+        "email": "sarah.j@email.com",
+        "age": "34",
+        "purchase_amount": "2100.75",
+        "registration_date": "20/02/2023",
+        "is_active": "TRUE",
+        "country": "UK",
+        "loyalty_points": "750",
+        "last_purchase_date": "12/01/2024",
+        "product": "Cycle"
+      },
+      {
+        "customer_id": "3",
+        "name": "Michael Brown",
+        "email": "m.brown@email.com",
+        "age": "45",
+        "purchase_amount": "950.25",
+        "registration_date": "10/03/2023",
+        "is_active": "FALSE",
+        "country": "Canada",
+        "loyalty_points": "200",
+        "last_purchase_date": "20/12/2023",
+        "product": "Car"
+      },
+      {
+        "customer_id": "4",
+        "name": "Emily Davis",
+        "email": "emily.d@email.com",
+        "age": "29",
+        "purchase_amount": "1800",
+        "registration_date": "05/04/2023",
+        "is_active": "TRUE",
+        "country": "USA",
+        "loyalty_points": "600",
+        "last_purchase_date": "08/01/2024",
+        "product": "Wallet"
+      },
+      {
+        "customer_id": "5",
+        "name": "David Wilson",
+        "email": "d.wilson@email.com",
+        "age": "52",
+        "purchase_amount": "3200.5",
+        "registration_date": "12/05/2023",
+        "is_active": "TRUE",
+        "country": "Australia",
+        "loyalty_points": "1200",
+        "last_purchase_date": "15/01/2024",
+        "product": "Watch"
+      }
+    ],
+    "sample_size": 5
+  },
+  "summary": {
+    "total_differences": 1,
+    "key_changes": [
+      "1 columns added"
+    ]
+  }
+}

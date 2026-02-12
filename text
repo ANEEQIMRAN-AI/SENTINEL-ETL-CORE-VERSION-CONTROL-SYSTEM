@@ -1,0 +1,6 @@
+python src/main.py create --input data/processed/sample_dataset_v1.csv --quality-score 90.5
+python src/main.py create --input data/processed/sample_dataset_v2.csv --quality-score 98.0
+python src/main.py list
+python src/main.py compare --from v1 --to v2
+python src/main.py rollback --to v1
+python src/main.py list

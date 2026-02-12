@@ -1,0 +1,19 @@
+{
+  "rollbacks": [
+    {
+      "timestamp": "2026-01-30T01:00:54.041378",
+      "from_version": "v2",
+      "to_version": "v1"
+    },
+    {
+      "timestamp": "2026-01-30T11:27:30.440713",
+      "from_version": "v3",
+      "to_version": "v1"
+    },
+    {
+      "timestamp": "2026-01-30T11:27:53.025184",
+      "from_version": "v1",
+      "to_version": "v3"
+    }
+  ]
+}

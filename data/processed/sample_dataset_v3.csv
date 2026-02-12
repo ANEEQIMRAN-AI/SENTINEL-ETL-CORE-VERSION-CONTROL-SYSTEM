@@ -1,0 +1,13 @@
+customer_id,name,email,age,purchase_amount,registration_date,is_active,country,loyalty_points,last_purchase_date,product
+1,John Smith,john.smith@email.com,28,1250.5,15/01/2023,TRUE,USA,500,10/01/2024,Pen
+2,Sarah Johnson,sarah.j@email.com,34,2100.75,20/02/2023,TRUE,UK,750,12/01/2024,Cycle
+3,Michael Brown,m.brown@email.com,45,950.25,10/03/2023,FALSE,Canada,200,20/12/2023,Car
+4,Emily Davis,emily.d@email.com,29,1800,05/04/2023,TRUE,USA,600,08/01/2024,Wallet
+5,David Wilson,d.wilson@email.com,52,3200.5,12/05/2023,TRUE,Australia,1200,15/01/2024,Watch
+6,Jessica Martinez,j.martinez@email.com,31,1500.75,18/06/2023,TRUE,Spain,450,05/01/2024,Ring
+7,Robert Taylor,r.taylor@email.com,38,2250.25,22/07/2023,FALSE,USA,350,30/11/2023,Cell Phone
+8,Amanda White,a.white@email.com,26,800.5,30/08/2023,TRUE,Germany,300,02/01/2024,Charger
+9,Christopher Lee,c.lee@email.com,41,2800,14/09/2023,TRUE,USA,950,14/01/2024,Locket
+10,Michelle Harris,m.harris@email.com,35,1600.75,25/10/2023,TRUE,France,550,09/01/2024,Coat
+11,James Anderson,j.anderson@email.com,33,1450,08/11/2023,TRUE,USA,400,11/01/2024,Shoes
+12,Patricia Thomas,p.thomas@email.com,48,2600.25,01/12/2023,TRUE,Canada,800,13/01/2024,Ac
